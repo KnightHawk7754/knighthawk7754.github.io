@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Erik Petersen</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+<!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+<body>
+	<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><img src="img/about-me.jpg" alt="img" width="100" height="125"></img></div>            
+                <h1 class="text-center">Erik Petersen</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
+                        <i class="fas fa-user"></i>
+                        About Me
+                    </a></li>
+                    <li class="tm-nav-item active"><a href="projects.html" class="tm-nav-link">
+                        <i class="fas fa-code-branch"></i>
+                        Portfolio
+                    </a></li>
+                    <li class="tm-nav-item"><a href="resume.html" class="tm-nav-link">
+                        <i class="far fa-sticky-note"></i>
+                        Qualifications
+                    </a></li>
+					<li class="tm-nav-item"><a href="services.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        Services
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-65">
+                <a href="https://facebook.com" class="tm-social-link">
+                    <i class="fab fa-facebook tm-social-icon"></i>
+                </a>
+                <a href="https://twitter.com" class="tm-social-link">
+                    <i class="fab fa-twitter tm-social-icon"></i>
+                </a>
+                <a href="https://instagram.com" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
+                </a>
+                <a href="https://linkedin.com" class="tm-social-link">
+                    <i class="fab fa-linkedin tm-social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">         
+            <div class="row tm-row">
+			<article class="col-12 col-md-6 tm-post">
+                    <a href="" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/Drone.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">FPV Racing Drone Capstone</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        My senior design capstone project was to build a first person view racing drone from the ground up using minimal
+						off the shelf components. My team included four electrical and computer engineers and we divided the project into 
+						four subsystems: navigation, power, sensors, and communication. I was the project lead and responsible for the
+						navigation subsystem. This subsystem served as the brains of the drone, consisting of the software required to fly
+						the drone including six PID controllers for basic autonomous response. The program received data from the sensor 
+						subsystem and tracked the position and orientation of the drone over time. This combined with input from the radio 
+						controller was used to generate an output motor voltage for the four electronic speed controllers. The PID controllers
+						were used to make small autonomous adjustments to account for cross-wind and other deviations form expected trajectory
+						allowing the drone to hover in place without user input. 
+                    </p>
+                    <!--<div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-primary"></span>
+                        <span class="tm-color-primary">May 2019-Present</span>
+                    </div>
+                    <!--<hr>
+                    <div class="d-flex justify-content-between">
+                        <span>May 2019-Present</span>
+                        <span>R12</span>
+                    </div>-->
+                </article>
+				<article class="col-12 col-md-6 tm-post">
+                    <a href="https://pages.github.tamu.edu/scouter1323/proj3-group3/" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/Stocks.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Pabu Stock Interface</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        The concept behind this project was to create a stock tracker application that incorporated current sentiment from 
+						tweets mentioning the company. To achieve this we used four APIs. The first one retrived stock prices for a given
+						company over a variable time window. The second grabbed tweets that mentioned a company's name or stock ID. The third
+						used an algorithm to determine the prevelant sentiments of the available tweets. And finally we incorported a news API
+						to give the latest market headlines.  
+                    </p>
+                    <!--<div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-primary"></span>
+                        <span class="tm-color-primary">May 2019-Present</span>
+                    </div>
+                    <!--<hr>
+                    <div class="d-flex justify-content-between">
+                        <span>May 2019-Present</span>
+                        <span>R12</span>
+                    </div>-->
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+					<hr class="tm-hr-primary">
+                    <a href="" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/Rubik's.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Rubik's Cube Simulator</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        This project started as a simple time killer over the summer of 2019. Shortly after I learned how to solve
+						a Rubik’s cube, I came up with the idea of teaching a basic C++ program to recursively solve a Rubik’s cube
+						using the most basic steps (also known as the daisy method). While a fun project, I've never been fully 
+						satisfied with it. At the moment, it outputs the current state of the cube via ‘cout’ statements which, 
+						while functional for debugging, aren’t so pretty. I had no experience with creating visual outputs in C++ at 
+						the time, much less a 3D isometric view with animations, but I recently took a computer graphics class and 
+						would love to apply what I learned to the project. 
+                    </p>
+                    <!--<div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-primary"></span>
+                        <span class="tm-color-primary">May 2019-Present</span>
+                    </div>
+                    <!--<hr>
+                    <div class="d-flex justify-content-between">
+                        <span>May 2019-Present</span>
+                        <span>R12</span>
+                    </div>-->
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+					<hr class="tm-hr-primary">
+                    <a href="" class="effect-lily tm-post-link tm-pt-60">
+                        <div class=" tm-post-link-inner">
+                            <img src="img/bulletCam.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Edge Compatable Pedestrian Tracker</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        Over the summer of 2020 I had a great opportunity to work as an intern on a Machine Learning team
+						designing AI vision applications for retail security. My goal was to modify Intel’s OpenVino Machine
+						Learning Pedestrian Tracker demo to operate on a proprietary AI-Oriented edge-compute device integrated
+						into a security camera. I used the experience to create a loose guide for converting existing code and
+						libraries to function on the edge-compute device including several troubleshooting and debugging examples.
+						The demo was also modified to include a rudimentary loitering detector which automatically defined regions
+						of interest based on pedestrian movement. The project was conducted using x86 Linux virtual machines and
+						the native ARM based Linux environment of the edge-compute device. The entire process was incredibly
+						tedious but super fun to work on and I learned a ton about Linux, cmake, library management, and machine
+						learning.
+                    </p>
+                    <!--<div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-primary"><a href="https://google.com"></a></span>
+                        <span class="tm-color-primary">R21</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>L22</span>
+                        <span>R22</span>
+                    </div>-->
+                </article>
+                <!--<article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="img/webpage.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Personalized Webpage</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        This project is actually the webpage you're looking at now! It started out life as an assignment for CSCE
+						315 but I intend to keep it up to date going forward. As someone with almost no prior HTML experience its
+						been a ton of fun to work on and I’ve just scraped the surface of what’s possible. Hopefully the graders
+						like it!
+                    </p>
+                    <!--<div class="d-flex justify-content-between tm-pt-45">
+                        <span class="tm-color-primary">L31</span>
+                        <span class="tm-color-primary">R31</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>L32</span>
+                        <span>R32</span>
+                    </div>-->
+                <!--</article>-->
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="" class="effect-lily tm-post-link tm-pt-20">
+                        <div class="tm-post-link-inner">
+                            <img src="img/codeOn.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">More to Come!</h2>
+                    </a>                    
+                    <p class="tm-pt-20">
+                        My intent is to keep this page up to date with various new projects and experiences going forward as a reference for potential employers.
+                    </p>
+                    <div class="d-flex justify-content-between tm-pt-30">
+                        <span class="tm-color-primary">Last Updated:</span>
+                        <span class="tm-color-primary">09/10/2021</span>
+                    </div>
+                    <hr>
+                    <!--<div class="d-flex justify-content-between">
+                        <span>L42</span>
+                        <span>R42</span>
+                    </div>-->
+                </article>
+            </div>
+        </main>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
